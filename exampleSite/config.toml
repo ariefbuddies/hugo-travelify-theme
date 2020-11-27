@@ -98,10 +98,10 @@ DisqusShortname = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    recent_articles = true
+    recent_articles = false
     categories = true
     tags = true
-    tag_cloud = true
+    tag_cloud = false
     archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
     search = false
     mailchimp = false
@@ -110,7 +110,7 @@ DisqusShortname = ""
     # Copy the URL in the action parameter inside the form
     # <div id="mc_embed_signup"><form action="https://balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;id=49a3dd3745" method="post"
 
-    author = true
+    author = false
 
 [params.slider]
     enable = true
