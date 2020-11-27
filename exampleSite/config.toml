@@ -100,7 +100,7 @@ DisqusShortname = ""
 [params.widgets]
     recent_articles = false
     categories = false
-    tags = true
+    tags = false
     tag_cloud = false
     archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
     search = false
@@ -122,7 +122,7 @@ DisqusShortname = ""
 #    tags = "/tags/:slug/"
 
 [taxonomies]
-#    category = "categories"
+    category = "categories"
     tag = "tags"
     series = "series"
     author = "author"
