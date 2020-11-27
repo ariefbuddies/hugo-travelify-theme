@@ -122,8 +122,8 @@ DisqusShortname = ""
 #    tags = "/tags/:slug/"
 
 [taxonomies]
-    category = "categories"
-    tag = "tags"
+#    category = "categories"
+#    tag = "tags"
     series = "series"
     author = "author"
 
